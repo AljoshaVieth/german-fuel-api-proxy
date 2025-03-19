@@ -1,0 +1,15 @@
+# Ignore config with sensitive data
+config.php
+
+# Ignore cache directory and rate limit file
+/cache/
+/rate_limit.json
+
+# Ignore common system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor specific files
+.idea/
+.vscode/
+*.swp
